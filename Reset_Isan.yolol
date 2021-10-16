@@ -5,3 +5,7 @@ if :IsanReset==1 then :_="Resetting ISAN" goto3 end goto1
 :_="Resetting ISAN"
 :_=""
 :IsanReset=0 goto1
+
+//By Hellstyrant
+//MIT License
+//Requires a button labeled IsanReset with buttontype 1
