@@ -1,0 +1,19 @@
+if :ks<100 then :lss=0 :rss=0 :lst=0 goto1 end
+if :ks>=100 and :ks<=124 then :lss=1 :rss=0 :lst=0 goto2 end
+if :ks>=125 and :ks<=149 then :lss=0 :rss=1 :lst=0 goto3 end
+if :ks>=150 then :lss=0 :rss=0 :lst=1 goto4 end goto1
+
+//By Hellstyrant
+//MIT License
+
+//Requires Memory Relay and 3 progress bars
+
+//Memory Relay:
+//:lss>:Light Speed|:rss>:Ridiculous Speed|:lst>:Ludicrous Speed
+//Its 2021 people, you should be using memory relays already
+
+//Progress Bars:
+//:Light Speed :Ridiculous Speed :Ludicrous Speed
+
+//:ks is the speed variable in Compass by Firestar99
+//If you use a different system, change accordingly
